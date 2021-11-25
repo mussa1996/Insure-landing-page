@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +13,8 @@ img{
 .display-none{
     display: none;
 }
-/* header */
+/*header
+==============*/
 header{
     height: 100px;
 }
@@ -59,7 +61,8 @@ nav{
     align-items: center;
     padding: 20px;
 }
-/*mobile-menu*/
+/*mobile-menu
+==============*/
 .nav-links-desktop{
     display: none;
 }
@@ -103,7 +106,8 @@ ul{
     position: absolute;
     bottom: 1%;
 }
-/*desktop-menu*/
+/*desktop-menu
+==============*/
 @media screen and (min-width:1024px){
     .hamburger{
         display: none;
@@ -129,7 +133,8 @@ ul{
         font-weight: 700;
     }
 }
-/*Home-hero-Mobile*/
+/*Home-hero-Mobile
+==============*/
 .desktop-right-intro{
     display: none;
 }
@@ -153,7 +158,7 @@ ul{
     left: 0%;
 }
 .hero-intro{
-    background-color: #2d2640;
+    background-color: hsl(256, 26%, 20%);
     height: 500px;
     color: white;
     text-align: center;
@@ -185,7 +190,8 @@ ul{
     border: 3px solid white;
     padding: 12px 40px;
 }
-/*Home-hero-desktop*/
+/*Home-hero-desktop
+==============*/
 @media screen and (min-width:1024px){
     .home-hero{
         display: flex;
@@ -253,5 +259,283 @@ ul{
         position: relative;
         left: -15%;
         font-weight: 700;
+    }
+}
+/*Home-services-mobile
+==============*/
+.home-services{
+    margin-top: 150px;
+    text-align: center;
+}
+.top{
+    background-color:hsl(216, 30%, 68%);
+    opacity: 0.4;
+    width: 185px;
+    margin: auto;
+    height: 3px;
+    margin-bottom: 30px;
+}
+.diff{
+    font-size: 40px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.service-cont{
+    padding: 25px;
+}
+.snappy-icon, .afford-icon, .people-icon{
+    margin-bottom: 30px;
+}
+.snappy-h1, .afford-h1, .people-h1{
+    font-size: 26px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.snappy-text, .afford-text{
+    color: hsl(216, 30%, 68%);
+    margin-bottom: 40px;
+    line-height: 23px;
+}
+.people-text{
+    color: hsl(216, 30%, 68%);
+    line-height: 23px;
+}
+/*Home-services-desktop
+==============*/
+@media screen and (min-width:1024px){
+    .home-services{
+        text-align: left;
+        margin-left: 252px;
+        margin-top: 302px;
+    }
+    .top{
+        background-color: hsl(256, 26%, 20%);
+        opacity: 0.5;
+        height: 1px;
+        position: relative;
+        left: -44%;
+    }
+    .diff{
+        font-size: 81px;
+        margin-bottom: 62px;
+    }
+    .service-cont{
+        padding: 25px;
+        display: flex;
+        position: relative;
+        left: -1%;
+    }
+    .snappy-icon, .afford-icon, .people-icon{
+        margin-bottom: 30px;
+    }
+    .snappy-h1, .afford-h1, .people-h1{
+        font-size: 30px;
+        font-family: 'DM Serif Display', serif;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    .snappy-text, .afford-text{
+        color: hsl(216, 30%, 68%);
+        margin-bottom: 40px;
+        line-height: 23px;
+        width: 370px;
+    }
+    .people-text{
+        color: hsl(216, 30%, 68%);
+        line-height: 23px;
+        width: 370px;
+    }
+    .snappy, .affordable, .people{
+        width: 80%;
+    }
+}
+/*Home-find-more-mobile
+=======================*/
+.how-desktop{
+    display: none;
+}
+.how-mobile{
+    position: absolute;
+    right: 7%;
+    top: 280%;
+}
+.home-find-more{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(256, 26%, 20%);
+    height: 347px;
+    color: white;
+    margin: 0px 25px;
+    margin-top: 70px;
+    text-align: center;
+}
+.h1-find-more{
+    font-size: 40px;
+    font-family: 'DM Serif Display', serif;
+    margin-top: 50px;
+    font-weight: 400;
+}
+.how-we-work{
+    text-decoration: none;
+    color: white;
+    margin-top: 40px;
+    border: 3px solid white;
+    padding: 12px 40px;
+    margin-bottom: 20px;
+}
+/*Home-find-more-desktop
+=======================*/
+@media screen and (min-width:1024px){
+    .how-desktop{
+        display: block;
+        position: absolute;
+        right: 15.0%;
+        top: 170%;
+    }
+    .how-mobile{
+        display: none;
+    }
+    .home-find-more{
+        flex-direction: row;
+        height: 250px;
+        text-align: center;
+        width: 70%;
+        margin: auto;
+        margin-top: 70px;
+        text-align: left;
+        justify-content: space-between;
+    }
+    .h1-find-more{
+        font-size: 56px;
+        margin-top: 9px;
+        font-weight: 400;
+        width: 44%;
+        padding: 17px 47px;
+        margin-left: 61px;
+    }
+    .how-we-work{
+        padding: 18px 57px;
+        margin-bottom: 20px;
+        margin-right: 103px;
+        font-size: 14px;
+    }
+ }
+ /*FOOTER-mobile
+=======================*/
+footer{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    background-color: hsl(0, 0%, 98%);
+}
+.top-pattern-mobile{
+    position: absolute;
+    left: 0%;
+    top: 341%
+}
+.top-pattern-desktop{
+    display: none;
+}
+.links{
+    margin-top: 90px;
+}
+.insure{
+    margin-bottom: 25px;
+}
+.fb, .tweet, .pin {
+    padding-right: 10px;
+}
+.fb, .tweet, .pin, .insta:hover{
+    cursor: pointer;
+}
+.foot-links{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 70px;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+}
+.footer-h6{
+    color: hsl(216, 30%, 68%);
+    margin-bottom: 50px;
+}
+.questions{
+    text-decoration: none;
+    color: hsl(256, 26%, 20%);
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.help, .contact,.others{
+    margin-top: 30px;
+}
+ /*FOOTER-desktop
+=======================*/
+@media screen and (min-width:1024px){
+    .footer{
+        width: 100%;
+    }
+    .top-pattern-mobile{
+        display: none;
+    }
+    .top-pattern-desktop{
+        display: block;
+        position: absolute;
+        top: 208%;
+        left: 0%;
+    }
+    .links{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 90px;
+        border-bottom: 2px solid rgba(149, 169, 198, 0.3);
+        padding-bottom: 30px;
+    }
+    .insure{
+        margin-bottom: 25px;
+    }
+    .social{
+        margin-right: 20px;
+    }
+    
+    .foot-links{
+        display: flex;
+        flex-direction: row;
+        margin-top: 70px;
+        width: 100%;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+    .link{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-h6{
+        color: hsl(216, 30%, 68%);
+        margin-bottom: 20px;
+    }
+    .questions{
+        text-decoration: none;
+        color: hsl(256, 26%, 20%);
+        font-weight: 700;
+        font-size: 14px;
+        margin-bottom: 0px;
+        line-height: 35px;
+    }
+    .help, .contact,.others{
+        margin-top: 0px;
     }
 }
